@@ -1,0 +1,8 @@
+{
+  "footer": {
+    "title": "Build with NuxtJs + TailwindCSS + Unicorn ♥"
+  },
+  "home": {
+    "aboutme": "About me"
+  }
+}
