@@ -62,6 +62,7 @@ export default {
   width: 250px;
 }
 
+/*
 @-webkit-keyframes me-show {
     0% { transform: translateX(0px); }
     20% { transform: translateX(-50px); }
@@ -73,6 +74,7 @@ export default {
   -webkit-animation: me-show 5s 1;
   animation: me-show 5s 1;
 }
+*/
 
 .w-note {
   width: 400px;
