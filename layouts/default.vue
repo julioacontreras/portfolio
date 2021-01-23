@@ -2,7 +2,7 @@
   <div>
     <Header />
     <Nuxt />
-    <Footer text="This site is powered by NuxtJs + TailwindCSS + Unicorn UI Components ♥" classes="text-surface" />
+    <Footer />
   </div>
 </template>
 <script>
