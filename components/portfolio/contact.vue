@@ -8,7 +8,7 @@
           <div class="pt-3">
             Add me on
           </div>
-          <a class="p-1 hover:underline border border-surface rounded m-2" href="https://www.linkedin.com/in/julio-contreras-6579b623/">
+          <a class="py-1 px-2 hover:underline border border-surface rounded m-2" href="https://www.linkedin.com/in/julio-contreras-6579b623/">
             Linkedin
           </a>
           <div class="pt-3">
