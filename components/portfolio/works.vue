@@ -19,17 +19,6 @@
                 Is a repository 25 components to start a website.
               </div>
               <div class="text-base">
-                Requesites:
-              </div>
-              <div class="pl-3">
-                <div class="text-base">
-                  - NuxtJS
-                </div>
-                <div class="text-base">
-                  - TailwindCSS
-                </div>
-              </div>
-              <div class="text-base">
                 Github: <a class="hover:underline" href="https://github.com/julioacontreras/unicorn">
                   https://github.com/julioacontreras/unicorn
                 </a>

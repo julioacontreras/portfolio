@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="p-6">
         <Cloud :animation="2" />
-        <Title text="Contact" classes="text-surface justify-center flex lg:justify-start block" />
+        <Title text="Contact" classes="text-surface justify-center flex lg:justify-start block pt-6 lg:pt-0" />
         <div class="text-surface text-xl flex justify-center pt-10">
           <div class="pt-3">
             Add me on
