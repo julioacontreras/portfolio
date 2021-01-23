@@ -3,15 +3,12 @@
     <div class="container mx-auto text-secondary">
       <div class="p-6">
         <Title text="Works" classes="text-secondary justify-center flex lg:justify-start block" />
-        <div class="flex flex-col lg:flex-row">
-          <List v-bind="works" />
-          <div class="flex flex-col lg:flex-row w-full lg:w-9/12">
-            <div class="flex justify-center w-full lg:w-auto lg:pr-6 pt-6 lg:pt-0">
-              <img src="/img/uni-logo.png">
-            </div>
-            <div class="flex justify-center w-full lg:w-auto pt-6 lg:pt-0">
-              <img src="/img/kraken-logo.png">
-            </div>
+        <div class="flex flex-col lg:flex-row w-full">
+          <div class="flex justify-center w-full lg:w-auto lg:pr-6 pt-6 lg:pt-0">
+            <img src="/img/uni-logo.png">
+          </div>
+          <div class="flex justify-center w-full lg:w-auto pt-6 lg:pt-0">
+            <img src="/img/kraken-logo.png">
           </div>
         </div>
       </div>
@@ -21,11 +18,9 @@
 
 <script>
 import Title from '~/components/sections/title'
-import List from '~/components/sections/list'
 export default {
   components: {
-    Title,
-    List
+    Title
   },
   data () {
     return {
