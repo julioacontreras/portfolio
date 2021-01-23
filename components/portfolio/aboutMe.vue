@@ -10,19 +10,8 @@
           <div class="relative">
             <img
               class="notebook w-note absolute z-20 inset-y-0 right-0"
-              src="/img/technologies.png"
+              src="/img/recently-technologies.png"
               style="top: 60px;"
-              @mouseenter="meIsVisible=true"
-              @mouseleave="meIsVisible=false"
-            >
-            <img
-              :class="[
-                {'me-show': meIsVisible},
-                {'me-hide': !meIsVisible},
-              ]"
-              class="w-me absolute z-10 inset-y-0 right-0"
-              src="/img/me.png"
-              style="left: 200px;"
             >
           </div>
         </div>
@@ -58,24 +47,6 @@ export default {
 </script>
 
 <style>
-.w-me {
-  width: 250px;
-}
-
-/*
-@-webkit-keyframes me-show {
-    0% { transform: translateX(0px); }
-    20% { transform: translateX(-50px); }
-    80% { transform: translateX(-5px); }
-    100% { transform: translateX(0px); }
-}
-
-.me-show {
-  -webkit-animation: me-show 5s 1;
-  animation: me-show 5s 1;
-}
-*/
-
 .w-note {
   width: 400px;
 }

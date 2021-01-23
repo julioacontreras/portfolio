@@ -77,6 +77,7 @@ export default {
           'Centos',
           'NGNIX',
           'Jenkins',
+          'Netlify',
           'Slack'
         ],
         classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',

@@ -4,7 +4,7 @@
       <div class="p-6">
         <Cloud :animation="2" />
         <Title text="Contact" classes="text-surface justify-center flex lg:justify-start block" />
-        <div class="w-full justify-start hidden lg:flex lg:pt-6">
+        <div class="w-full justify-end hidden lg:flex lg:pt-6">
           <a href="https://www.linkedin.com/in/julio-contreras-6579b623/"><img src="/img/linkedin-mini.png" class="pr-6"></a>
           <a href="mailto:julio.aranis.contreras@gmail.com"><img src="/img/email-mini.png"></a>
         </div>
