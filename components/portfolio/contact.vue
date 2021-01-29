@@ -9,7 +9,7 @@
             <a class="py-1 pl-2 pr-1 hover:underline border border-surface rounded mx-2" href="https://www.linkedin.com/in/julio-contreras-6579b623/">
               Linkedin
             </a>
-            and lets talk! :)
+            and lets talk!
           </div>
         </div>
       </div>
