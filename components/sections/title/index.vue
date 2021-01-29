@@ -7,7 +7,7 @@
       {'font-bold': opt.weight === 'bold'},
       classes
     ]"
-    class="w-full flex "
+    class="w-full flex pb-6"
   >
     {{ text }}
   </div>

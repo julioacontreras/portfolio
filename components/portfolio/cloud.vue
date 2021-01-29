@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative overflow-hidden">
     <img v-if="animation === 1" class="absolute w-fit cloud-left-right" src="/img/cloud.png" style="top: -62px;">
     <img v-if="animation === 2" class="absolute w-fit cloud-right-left" src="/img/cloud.png">
   </div>

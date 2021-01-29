@@ -15,7 +15,8 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi' },
+      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
