@@ -49,10 +49,14 @@
 
         <div class="flex flex-col w-full lg:hidden">
           <div class="flex justify-center w-full pt-6">
-            <img src="/img/uni-logo.png">
+            <a href="https://github.com/julioacontreras/unicorn">
+              <img src="/img/uni-logo.png">
+            </a>
           </div>
           <div class="flex justify-center w-full auto pt-6">
-            <img src="/img/kraken-logo.png">
+            <a href="https://github.com/julioacontreras/kraken">
+              <img src="/img/kraken-logo.png">
+            </a>
           </div>
         </div>
       </div>

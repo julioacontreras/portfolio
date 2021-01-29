@@ -20,6 +20,15 @@
 <script>
 import Title from '~/components/sections/title'
 import List from '~/components/sections/list'
+
+const listClasses = () => {
+  return 'text-surface text-2xl lg:text-base w-full pb-5 lg:pb-0 lg:flex-1'
+}
+
+const listClassesText = () => {
+  return 'flex justify-center lg:block lg:justify-start'
+}
+
 export default {
   components: {
     Title,
@@ -35,8 +44,8 @@ export default {
           'Pinterest',
           'Dribble'
         ],
-        classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',
-        classesText: 'flex justify-center lg:block lg:justify-start'
+        classes: listClasses(),
+        classesText: listClassesText()
       },
       concept: {
         title: 'Concept',
@@ -45,8 +54,8 @@ export default {
           'Inkscape',
           'Krita'
         ],
-        classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',
-        classesText: 'flex justify-center lg:block lg:justify-start'
+        classes: listClasses(),
+        classesText: listClassesText()
       },
       frontend: {
         title: 'Frontend',
@@ -55,10 +64,11 @@ export default {
           'Tailwind CSS',
           'HTML 5',
           'CSS 3',
-          'Nuxtjs'
+          'Nuxtjs',
+          'Phaser'
         ],
-        classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',
-        classesText: 'flex justify-center lg:block lg:justify-start'
+        classes: listClasses(),
+        classesText: listClassesText()
       },
       backend: {
         title: 'Backend',
@@ -68,8 +78,8 @@ export default {
           'ExpressJS',
           'Socket.IO'
         ],
-        classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',
-        classesText: 'flex justify-center lg:block lg:justify-start'
+        classes: listClasses(),
+        classesText: listClassesText()
       },
       system: {
         title: 'System & CI',
@@ -80,8 +90,8 @@ export default {
           'Netlify',
           'Slack'
         ],
-        classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',
-        classesText: 'flex justify-center lg:block lg:justify-start'
+        classes: listClasses(),
+        classesText: listClassesText()
       },
       tools: {
         title: 'Tools',
@@ -90,8 +100,8 @@ export default {
           'VS Code',
           'Github'
         ],
-        classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',
-        classesText: 'flex justify-center lg:block lg:justify-start'
+        classes: listClasses(),
+        classesText: listClassesText()
       },
       methods: {
         title: 'Methods',
@@ -99,8 +109,8 @@ export default {
           'Scrum',
           'XP'
         ],
-        classes: 'text-surface w-full pb-5 lg:pb-0 lg:flex-1',
-        classesText: 'flex justify-center lg:block lg:justify-start'
+        classes: listClasses(),
+        classesText: listClassesText()
       }
     }
   }

@@ -4,7 +4,7 @@
       {{ title }}
     </div>
     <div v-for="(item, idx) in items" :key="idx" :class="classesText">
-      • {{ item }}
+      {{ item }}
     </div>
   </div>
 </template>
