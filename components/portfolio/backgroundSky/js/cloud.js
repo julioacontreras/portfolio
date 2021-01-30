@@ -8,7 +8,7 @@ export default (Phaser) => {
 
     preload (scene) {
       this.speed = 0.1
-      const pixelWidth = 4
+      const pixelWidth = 2
       const cloud = [
         '.............22F.22F.22F.22F..............',
         '......... 2222222222222222222F............',

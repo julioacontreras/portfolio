@@ -19,7 +19,7 @@ export default (Phaser) => {
 
     create (scene) {
       this.obj1 = scene.add.image(this.initPointX, this.centerHeight(), 'presentation').setOrigin(0)
-      this.obj2 = scene.add.image(this.initPointX, this.centerHeight(), 'presentation-mini').setOrigin(0)
+      this.obj2 = scene.add.image(this.initPointX, 20, 'presentation-mini').setOrigin(0)
       this.p1 = scene.add.image(this.width - 600, 20, 'project').setOrigin(0)
       this.p2 = scene.add.image(this.width - 300, 120, 'project-mini').setOrigin(0)
       this.updateImage()

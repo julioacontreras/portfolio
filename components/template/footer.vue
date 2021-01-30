@@ -4,7 +4,7 @@
       This <a class="underline px-1" href="https://github.com/julioacontreras/portfolio">site</a> is powered by:
     </div>
     <div class="text-primary-variant-400">
-      NuxtJs + TailwindCSS + Unicorn UI Components ♥
+      NuxtJs + TailwindCSS + Unicorn UI Components + Phaser ♥
     </div>
   </div>
 </template>

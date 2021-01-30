@@ -1,9 +1,9 @@
 <template>
   <div class="w-full lg:h-article bg-secondary">
     <div class="container mx-auto">
-      <div class="p-3 lg:p-6">
+      <div class="p-4">
         <Title text="Experience" classes="text-surface lg:pb-3 justify-center flex lg:justify-start block" />
-        <div class="flex pt-6 lg:pl-0 lg:pt-0 flex-col lg:flex-row">
+        <div class="flex pt-6 flex-col lg:flex-row">
           <List v-bind="inspiration" />
           <List v-bind="concept" />
           <List v-bind="frontend" />

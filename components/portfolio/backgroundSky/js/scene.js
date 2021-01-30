@@ -4,7 +4,7 @@ export default (Phaser) => {
       super()
       const maxPointY = 300
       const maxStars = 100
-      this.cloud = new Phaser.classes.Cloud(maxPointY)
+      this.cloud = new Phaser.classes.Cloud(100)
       this.sky = new Phaser.classes.Sky(maxStars)
       this.presentation = new Phaser.classes.Presentation(maxPointY)
     }

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex bg-primary flex-col w-full h-hero mb-12"
+    class="flex bg-primary flex-col w-full h-hero "
   >
     <div v-if="loading">
       Loading...
@@ -32,7 +32,7 @@ export default {
 }
 
 .h-hero {
-  height: 14rem;
+  height: 300;
 }
 
 .hero {
@@ -61,9 +61,6 @@ export default {
 
 @media only screen and (min-width: 768px) {
 
-.lg\:h-hero {
-  height: 19rem;
-}
 .lg\:hero h1 {
   font-size: 3rem;
 }

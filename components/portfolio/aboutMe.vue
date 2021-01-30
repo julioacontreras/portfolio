@@ -2,7 +2,7 @@
   <div class="w-full h-article">
     <div class="container mx-auto">
       <div class="flex">
-        <div class="w-full lg:w-1/2 p-6">
+        <div class="w-full lg:w-1/2 pt-4 px-2">
           <Title text="About me" classes="text-primary justify-center flex lg:justify-start block w-full pb-6 lg:pb-2" />
           <Article v-bind="aboutMe" />
         </div>

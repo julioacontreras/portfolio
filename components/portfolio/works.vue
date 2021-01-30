@@ -1,7 +1,7 @@
 <template>
   <div class="w-full lg:h-article">
     <div class="container mx-auto text-secondary">
-      <div class="p-6">
+      <div class="p-4">
         <Title text="Works" classes="text-secondary justify-center flex lg:justify-start block" />
 
         <div class="hidden lg:flex w-full">
